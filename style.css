@@ -136,7 +136,7 @@ header {
     color: var(--text-secondary-color);
 }
 
-.project_content .markdown {
+.markdown {
     overflow: scroll;
     max-height: calc(100vh - 160px);
     padding: var(--gap-size);
