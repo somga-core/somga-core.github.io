@@ -1,0 +1,41 @@
+:root {
+    --text-color: white;
+    --bg-color: rgb(26, 26, 26);
+    --accent-color: rgb(204, 0, 0);
+    --highlight-color: rgb(47, 47, 47);
+}
+
+* {
+    font-family: none;
+}
+
+::selection {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0px auto;
+    padding: 40px;
+    max-width: 650px;
+
+    line-height: 1.6;
+    font-size: 18px;
+    
+    color: #444;
+    background-color: var(--bg-color);
+    color: white;
+}
+
+hr {
+    border-color: var(--highlight-color);
+}
