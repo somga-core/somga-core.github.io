@@ -7,4 +7,4 @@ test
 # Test
 test
 
-[link](sex)
+[link](test)

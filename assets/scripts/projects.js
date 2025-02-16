@@ -13,7 +13,7 @@ function getGithubInfo(link) {
   var splited_link = link.split(" ")[0].split("/");
   var image_link = link.split(" ")[1];
 
-  return ["project?id=" + loadFile("assets/projects.txt").split("\n").indexOf(link), splited_link[4], image_link, splited_link[3]];
+  return ["project?id=" + loadFile("projects.txt").split("\n").indexOf(link), splited_link[4], image_link, splited_link[3]];
 }
 
 function loadProject(info) {
@@ -22,7 +22,7 @@ function loadProject(info) {
   return html[0] + info[0] + html[1] + info[2] + html[2] + info[1] + html[3] + info[3] + html[4];
 }
 
-var projects = loadFile("assets/projects.txt").split("\n");
+var projects = loadFile("projects.txt").split("\n");
 
 for (let i = 0; i < projects.length; i++) {
   document.write(loadProject(getGithubInfo(projects[i])) + "\n");
