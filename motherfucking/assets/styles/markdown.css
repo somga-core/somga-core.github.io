@@ -1,7 +1,5 @@
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    visibility: hidden;
 }
 
 * {
@@ -10,10 +8,6 @@ img {
 
 a {
     color: var(--accent-color);
-}
-
-img {
-    border-radius: var(--corner-radius);
 }
 
 ::selection {
