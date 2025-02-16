@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: "SomgaFont";
-    src: url("assets/font/Picanto.ttf");
+    src: url("../font/Picanto.ttf");
 }
 
 :root {

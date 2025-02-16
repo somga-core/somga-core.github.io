@@ -9,4 +9,4 @@ function loadFile(filePath) {
     return result;
 }
 
-document.write(loadFile("assets/syles/markdown.html"));
+document.write(loadFile("assets/styles/markdown.html"));
