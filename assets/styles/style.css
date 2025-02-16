@@ -245,3 +245,30 @@ header {
         margin-left: 0px;
     }
 }
+
+.markdown img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.markdown pre {
+    margin: 10px;
+    padding: 7px;
+    width: fit-content;
+    background-color: var(--highlight-color);
+    border-radius: var(--corner-radius);
+}
+
+.markdown a {
+    color: var(--accent-color);
+}
+
+.markdown img {
+    border-radius: var(--corner-radius);
+}
+
+.markdown ::selection {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
