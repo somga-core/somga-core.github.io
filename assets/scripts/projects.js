@@ -1,0 +1,29 @@
+function loadFile(filePath) {
+    var result = null;
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", filePath, false);
+    xmlhttp.send();
+    if (xmlhttp.status==200) {
+      result = xmlhttp.responseText;
+    }
+    return result;
+}
+
+function getGithubInfo(link) {
+  var splited_link = link.split(" ")[0].split("/");
+  var image_link = link.split(" ")[1];
+
+  return ["project?id=" + loadFile("assets/projects.txt").split("\n").indexOf(link), splited_link[4], image_link, splited_link[3]];
+}
+
+function loadProject(info) {
+  var html = loadFile("assets/elements/project.html").split("~");
+
+  return html[0] + info[0] + html[1] + info[2] + html[2] + info[1] + html[3] + info[3] + html[4];
+}
+
+var projects = loadFile("assets/projects.txt").split("\n");
+
+for (let i = 0; i < projects.length; i++) {
+  document.write(loadProject(getGithubInfo(projects[i])) + "\n");
+}

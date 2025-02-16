@@ -5,19 +5,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Sömga core</title>
 		<link rel="shortcurt icon" href="https://i.imgur.com/2j4dJgA.png">
-		<link rel="stylesheet" href="assets/styles/style.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<script src="assets/scripts/header.js"></script>
+		<div class="header">
+			<h4>
+				Motherfucking SC
+			</h4>
+
+			<h4>
+				<a href="https://t.me/somga_core_channel">Канал</a>
+				<a href="catalog">Каталог</a>
+			</h4>
+		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 		<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 		
-		<zero-md class="markdown" src="README.md">
-			<template>
-				<script src="assets/scripts/markdown_style.js"></script>
-			</template>
+		<zero-md class="markdown" src="../README.md">
+			<template><style></style></template>
 		</zero-md>
 		
 	</body>
