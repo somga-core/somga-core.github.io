@@ -13,8 +13,9 @@ function getGithubInfo(link) {
   var splited_link = link.split(" ")[0].split("/");
   var image_link = link.split(" ")[1];
   var source_link = link.split(" ")[0];
+  var name = link.split(" ").slice(2).join(" ");
 
-  return [splited_link[4], splited_link[3], source_link, source_link + "/archive/refs/heads/main.zip", "https://raw.githubusercontent.com/" + splited_link[3] + "/" + splited_link[4] + "/main/README.md"];
+  return [name, splited_link[3], source_link, source_link + "/archive/refs/heads/main.zip", "https://raw.githubusercontent.com/" + splited_link[3] + "/" + splited_link[4] + "/main/README.md"];
 }
 
 function loadProjectContent(info) {
