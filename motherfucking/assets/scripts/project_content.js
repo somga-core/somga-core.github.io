@@ -24,7 +24,11 @@ function loadProjectContent(info) {
   return html[0] + info[0] + html[1] + info[1] + html[2] + info[2] + html[3] + info[3] + html[4] + info[4] + html[5];
 }
 
-const id = new URLSearchParams(window.location.search).get('id')
-const links = loadFile("../projects.txt").split("\n").reverse()[id]
+const id = new URLSearchParams(window.location.search).get('id');
+const links = loadFile("../projects.txt").split("\n").reverse()[id];
 
-document.write(loadProjectContent(getGithubInfo(links)));
+if (links){
+  document.write(loadProjectContent(getGithubInfo(links)));
+  var error = document.getElementsByClassName("error_404")[0]
+  error.parentNode.removeChild(error);
+}

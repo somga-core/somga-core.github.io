@@ -27,4 +27,8 @@ function loadProjectContent(info) {
 const id = new URLSearchParams(window.location.search).get('id')
 const links = loadFile("projects.txt").split("\n").reverse()[id]
 
-document.write(loadProjectContent(getGithubInfo(links)));
+if (links){
+  document.write(loadProjectContent(getGithubInfo(links)));
+  var error = document.getElementsByClassName("error_404")[0]
+  error.parentNode.removeChild(error);
+}
