@@ -14,7 +14,7 @@ function getGithubInfo(link) {
   var image_link = link.split(" ")[1];
   var name = link.split(" ").slice(2).join(" ");
 
-  return ["project?id=" + projects.length() - projects.indexOf(link), name, image_link, splited_link[3]];
+  return ["project?id=" + loadFile("projects.txt").split("\n").indexOf(link), name, image_link, splited_link[3]];
 }
 
 function loadProject(info) {

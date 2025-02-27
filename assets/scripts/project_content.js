@@ -24,8 +24,7 @@ function loadProjectContent(info) {
   return html[0] + info[0] + html[1] + info[1] + html[2] + info[2] + html[3] + info[3] + html[4] + info[4] + html[5] + info[5] + html[6];
 }
 
-var projects = loadFile("../projects.txt").split("\n");
-const id = projects.length() - new URLSearchParams(window.location.search).get('id')
-const links = projects[id]
+const id = new URLSearchParams(window.location.search).get('id')
+const links = loadFile("projects.txt").split("\n")[id]
 
 document.write(loadProjectContent(getGithubInfo(links)));
