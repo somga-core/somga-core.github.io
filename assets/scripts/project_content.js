@@ -25,6 +25,6 @@ function loadProjectContent(info) {
 }
 
 const id = new URLSearchParams(window.location.search).get('id')
-const links = loadFile("projects.txt").split("\n")[id]
+const links = loadFile("projects.txt").split("\n").reverse()[id]
 
 document.write(loadProjectContent(getGithubInfo(links)));
