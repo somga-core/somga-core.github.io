@@ -227,6 +227,24 @@ header {
     text-align: center;
 }
 
+table {
+    margin: calc(var(--gap-size) * 2);
+    padding: var(--gap-size);
+
+    border-radius: var(--corner-radius);
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+}
+
+th {
+    padding: calc(var(--gap-size) / 2);
+}
+
+td {
+    padding: calc(var(--gap-size) / 2);
+}
+
 @media (max-width: 700px) {
     .project {
         width: 300px;
