@@ -15,7 +15,7 @@ function loadMarkdown(info) {
   return html[0] + info + html[1];
 }
 
-const markdowns = loadFile("../other.txt").split("`\n");
+const markdowns = loadFile("../other.txt").split("~");
 
 for (let i = 0; i < markdowns.length; i++) {
   document.write(loadMarkdown(markdowns[i]));
