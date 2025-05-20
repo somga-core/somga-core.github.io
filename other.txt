@@ -1,6 +1,10 @@
-mojosajx' крутяк
-ekzaktajx' точняк
-placxajx' ништяк
-siajx' свояк
-misajx' косяк
-starajx' стояк
+## Хайповые слова на эсперанто
+
+| Esperanto | Русский язык |
+|-|-|
+| mojosajx' | крутяк |
+| ekzaktajx' | точняк |
+| placxajx' | ништяк |
+| siajx' | свояк |
+| misajx' | косяк |
+| starajx' | стояк |

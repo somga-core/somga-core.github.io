@@ -9,14 +9,14 @@ function loadFile(filePath) {
   return result;
 }
 
-function loadWord(info) {
+function loadMarkdown(info) {
   var html = loadFile("assets/elements/other.html").split("~");
-
-  return html[0] + info[0] + html[1] + info[1] + html[2];
+  
+  return html[0] + info + html[1];
 }
 
-var words = loadFile("../dictonary.txt").split("\n");
+const markdowns = loadFile("../other.txt").split("`\n");
 
-for (let i = 0; i < words.length; i++) {
-  document.write(loadWord(words[i].split(" ")) + "\n");
+for (let i = 0; i < markdowns.length; i++) {
+  document.write(loadMarkdown(markdowns[i]));
 }

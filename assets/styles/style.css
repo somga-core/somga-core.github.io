@@ -136,9 +136,9 @@ header {
     color: var(--text-secondary-color);
 }
 
-.markdown {
-    overflow: scroll;
-    max-height: calc(100vh - 160px);
+.markdown_box {
+    /* overflow: scroll;
+    max-height: calc(100vh - 160px); */
     padding: var(--gap-size);
     margin: calc(var(--gap-size) * 2);
 
@@ -146,6 +146,10 @@ header {
     border: 0 solid var(--highlight-color);
     border-width: var(--line-width);
     border-color: var(--highlight-color);
+}
+
+.markdown {
+    display: contents;
 }
 
 .project_content .data {

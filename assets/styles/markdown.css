@@ -24,3 +24,20 @@ img {
     background-color: var(--accent-color);
     color: var(--text-color);
 }
+
+table {
+    padding: calc(var(--gap-size) / 2);
+
+    border-radius: var(--corner-radius);
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+}
+
+th {
+    padding: calc(var(--gap-size) / 2);
+}
+
+td {
+    padding: calc(var(--gap-size) / 2);
+}
