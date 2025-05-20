@@ -10,7 +10,7 @@ function loadFile(filePath) {
 }
 
 function loadWord(info) {
-  var html = loadFile("assets/elements/dictionary.html").split("~");
+  var html = loadFile("assets/elements/other.html").split("~");
 
   return html[0] + info[0] + html[1] + info[1] + html[2];
 }
