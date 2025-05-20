@@ -137,8 +137,6 @@ header {
 }
 
 .markdown_box {
-    /* overflow: scroll;
-    max-height: calc(100vh - 160px); */
     padding: var(--gap-size);
     margin: calc(var(--gap-size) * 2);
 
