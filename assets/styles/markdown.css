@@ -40,10 +40,10 @@ table {
     border-width: var(--line-width);
     border-color: var(--highlight-color);
     
-    display: block;
     overflow-x: scroll;
 
     max-width: max-content;
+    width: 1;
 }
 
 th {
