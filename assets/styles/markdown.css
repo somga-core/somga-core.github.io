@@ -7,9 +7,16 @@ img {
 pre {
     margin: 10px;
     padding: 7px;
-    width: fit-content;
-    background-color: var(--highlight-color);
+
+    display: block;
+    overflow-x: scroll;
+    width: 1;
+    max-width: fit-content;
+
     border-radius: var(--corner-radius);
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
 }
 
 a {
@@ -32,8 +39,7 @@ table {
     border: 0 solid var(--highlight-color);
     border-width: var(--line-width);
     border-color: var(--highlight-color);
-
-    display: block;
+    
     overflow-x: scroll;
 
     max-width: max-content;

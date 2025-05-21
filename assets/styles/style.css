@@ -29,6 +29,8 @@ body {
     color-scheme: dark;
     font-family: "SomgaFont";
     scrollbar-color: var(--accent-color) var(--bg-color);
+
+    scroll-behavior: smooth;
 }
 
 ::selection {
@@ -269,4 +271,8 @@ td {
     .project_content .data .links .source {
         margin-left: 0px;
     }
+}
+
+.article {
+    scroll-margin-block-start: 130px;
 }

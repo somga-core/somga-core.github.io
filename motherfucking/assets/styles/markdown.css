@@ -19,9 +19,14 @@ a {
 
 table {
     padding: 5px;
-    border: 0 dotted var(--text-color);
-    border-width: .5px;
-    border-color: var(--text-color);
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+    
+    display: block;
+    overflow-x: scroll;
+    
+    max-width: max-content;
 }
 
 th {
@@ -30,4 +35,19 @@ th {
 
 td {
     padding: 5px;
+}
+
+code {
+    font-family: monospace;
+    font-size: 75%;
+}
+
+pre {
+    padding: 5px;
+
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+
+    overflow-x: scroll;
 }

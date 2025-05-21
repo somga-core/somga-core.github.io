@@ -3,6 +3,11 @@
     --bg-color: rgb(26, 26, 26);
     --accent-color: rgb(204, 0, 0);
     --highlight-color: rgb(47, 47, 47);
+
+    --line-width: 2px;
+    
+    color-scheme: dark;
+    scrollbar-color: var(--accent-color) var(--bg-color);
 }
 
 * {
@@ -37,5 +42,7 @@ body {
 }
 
 hr {
-    border-color: var(--highlight-color);
+    border: none;
+    height: var(--line-width);
+    background-color: var(--highlight-color);
 }
