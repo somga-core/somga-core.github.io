@@ -9,10 +9,15 @@ function loadFile(filePath) {
   return result;
 }
 
-function loadMarkdown(info) {
-  var html = loadFile("assets/elements/other.html").split("~");
+function formatName(name) {
+  return name.replace(" ", "-").toLowerCase();
+}
 
-  return html[0] + info + html[1];
+function loadMarkdown(markdown) {
+  var html = loadFile("assets/elements/other.html").split("~");
+  var info = [markdown.split("\n")[1], markdown.split("\n").splice(0, 1).join("\n")];
+
+  return html[0] + formatName(info[0]) + html[1] + info[0] + html[2] + info[1] + html[3];
 }
 
 const markdowns = loadFile("other.txt").split("~");
