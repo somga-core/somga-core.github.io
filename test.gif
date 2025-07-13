@@ -1,9 +1,16 @@
-<script>
-    document.addEventListener('DOMContentLoaded', async function() {
-        const gifFolder = 'test/';
-        const gifFiles = ['1.gif', '2.gif', '3.gif'];
-        const randomGif = gifFiles[Math.floor(Math.random() * gifFiles.length)];
-        
-        location.href = gifFolder + randomGif
-    });
-</script>
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+            document.addEventListener('DOMContentLoaded', async function() {
+                const gifFolder = 'test/';
+                const gifFiles = ['1.gif', '2.gif', '3.gif'];
+                const randomGif = gifFiles[Math.floor(Math.random() * gifFiles.length)];
+                
+                location.href = gifFolder + randomGif
+            });
+        </script>
+	</body>
+</html>
