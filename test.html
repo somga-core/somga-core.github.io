@@ -1,0 +1,9 @@
+<script>
+    document.addEventListener('DOMContentLoaded', async function() {
+        const gifFolder = 'test/';
+        const gifFiles = ['1.gif', '2.gif', '3.gif'];
+        const randomGif = gifFiles[Math.floor(Math.random() * gifFiles.length)];
+        
+        location.href = gifFolder + randomGif
+    });
+</script>
