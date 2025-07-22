@@ -285,6 +285,8 @@ td {
     perspective-origin: center center;
     align-items: center;
     justify-self: center;
+    overflow: hidden;
+    width: calc(var(--cube-width) * 2);
 }
 
 .fun .cube {
