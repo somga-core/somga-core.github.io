@@ -1,4 +1,4 @@
 https://github.com/d54267ygi/RITOPOS https://cdn.imgchest.com/files/7w6c2q82zvy.png RITOPOS
 https://github.com/K0RSY/SpaceAround https://github.com/K0RSY/SpaceAround/blob/main/icon.png?raw=true Space around
 https://github.com/K0RSY/CLGame https://github.com/K0RSY/CLGame/blob/main/icon.png?raw=true CLGame
-https://github.com/K0RSY/For-the-name-of-Pruanik https://github.com/K0RSY/For-the-name-of-Pruanik/blob/main/assets/textures/icon.png?raw=true Во имя пряника
+https://github.com/K0RSY/ForTheNameOfPruanik https://github.com/K0RSY/ForTheNameOfPruanik/blob/main/assets/textures/icon.png?raw=true Во имя пряника
