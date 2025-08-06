@@ -19,7 +19,7 @@ Sömga core - это сообщесво юных и озорных разраб�
 
 ## Мы в других углах сети интернет
 Вот как нас много:
-- [Наш телеграм канал](www.t.me/somga_core_channel)
-- [Наш ютуб канал](www.youtube.com/@somga-core)
-- [Наши дискуссии](www.t.me/somga_core_discussions)
-- [Наш бот](www.t.me/somga_core_bot)
+- [Наш телеграм канал](https://www.t.me/somga_core_channel)
+- [Наш ютуб канал](https://www.youtube.com/@somga-core)
+- [Наши дискуссии](https://www.t.me/somga_core_discussions)
+- [Наш бот](https://www.t.me/somga_core_bot)
