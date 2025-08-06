@@ -10,7 +10,7 @@ function loadFile(filePath) {
 }
 
 function formatName(name) {
-  return name.replace(" ", "-").toLowerCase();
+  return name.replace(/ /g, "-").toLowerCase();
 }
 
 function loadMarkdown(markdown) {
