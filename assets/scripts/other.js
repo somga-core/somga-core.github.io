@@ -23,7 +23,5 @@ function loadMarkdown(markdown) {
 const markdowns = loadFile("other.md").split("~");
 
 for (let i = 0; i < markdowns.length; i++) {
-  loadMarkdown(markdowns[i]);
+  document.write(loadMarkdown(markdowns[i]));
 }
-
-document.getElementById(window.location.hash.slice(1)).scrollIntoView();
