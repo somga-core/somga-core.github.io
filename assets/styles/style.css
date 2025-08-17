@@ -3,7 +3,6 @@ body {
     color: var(--text-color);
     padding-top: 75px;
     margin: 0px;
-    display: block;
 }
 
 @font-face {
@@ -99,7 +98,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1400px;
-    justify-self: center;
 }
 
 .project {
@@ -368,9 +366,19 @@ td {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    justify-self: center;
 }
 
+.social_links_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 @media (max-width: 700px) {
     .project {
