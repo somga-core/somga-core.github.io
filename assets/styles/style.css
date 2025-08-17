@@ -97,6 +97,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1400px;
+    justify-self: center;
 }
 
 .project {
@@ -251,30 +253,6 @@ td {
     padding: calc(var(--gap-size) / 2);
 }
 
-@media (max-width: 700px) {
-    .project {
-        width: 300px;
-    }
-    
-    .project_content .data {
-        flex-direction: column;
-    }
-
-    .project_content .data .info {
-        width: auto;
-        margin-right: 0px;
-        margin-bottom: calc(var(--gap-size) * 2);
-    }
-    
-    .project_content .data .links .link {
-        width: 100%;
-    }
-    
-    .project_content .data .links .source {
-        margin-left: 0px;
-    }
-}
-
 .article {
     scroll-margin-block-start: 130px;
 }
@@ -354,4 +332,81 @@ td {
     margin-left: var(--cube-width);
     transform-origin: 0 0;
     transform: rotate3d(1, 0, 0, -90deg) translate3d(0, calc(var(--cube-width) * -.5), 0);
+}
+
+.social_link {
+    margin: var(--gap-size);
+    padding: var(--gap-size);
+    padding-bottom: 0;
+    
+    border-radius: var(--corner-radius);
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.social_link:hover {
+    background-color: var(--highlight-color);
+}
+
+.social_link img {
+    width: 75px;
+    margin: var(--gap-size);
+    border-radius: var(--corner-radius);
+}
+
+.social_link h3 {
+    justify-self: center;
+}
+
+.social_links {
+    margin: var(--gap-size);
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+}
+
+
+@media (max-width: 700px) {
+    .project {
+        width: 300px;
+    }
+    
+    .project_content .data {
+        flex-direction: column;
+    }
+
+    .project_content .data .info {
+        width: auto;
+        margin-right: 0px;
+        margin-bottom: calc(var(--gap-size) * 2);
+    }
+    
+    .project_content .data .links .link {
+        width: 100%;
+    }
+    
+    .project_content .data .links .source {
+        margin-left: 0px;
+    }
+    
+    .social_link img {
+        width: 50px;
+    }
+    
+    .social_link h3 {
+        font-size: 100%;
+    }
+
+    .social_link {
+        margin: var(--gap-size);
+    }
+    
+    .social_links {
+        max-width: 500px;
+    }
 }
