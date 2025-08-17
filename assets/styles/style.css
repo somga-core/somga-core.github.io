@@ -3,6 +3,7 @@ body {
     color: var(--text-color);
     padding-top: 75px;
     margin: 0px;
+    display: block;
 }
 
 @font-face {
