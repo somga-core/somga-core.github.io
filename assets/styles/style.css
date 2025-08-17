@@ -344,6 +344,9 @@ td {
     border-color: var(--highlight-color);
     transition: 0.3s;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social_link:hover {
@@ -354,10 +357,6 @@ td {
     width: 75px;
     margin: var(--gap-size);
     border-radius: var(--corner-radius);
-}
-
-.social_link h3 {
-    justify-self: center;
 }
 
 .social_links {
