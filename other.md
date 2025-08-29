@@ -1,12 +1,12 @@
-Хайповые слова на эсперанто
-|Esperanto|Русский язык|
-|:-|:-|
-|mojosajx'|крутяк|
-|ekzaktajx'|точняк|
-|placxajx'|ништяк|
-|siajx'|свояк|
-|misajx'|косяк|
-|starajx'|стояк|
+Хайповые слова на разных языках
+|Esperanto|la lojban.|Русский язык|
+|:-|:-|:-|
+|mojosaĵ'|zabna|крутяк|
+|ekzaktaĵ'|satci|точняк|
+|placxaĵ'|mansa|ништяк|
+|siaĵ'|se steci vo'a|свояк|
+|misaĵ'|nu srera|косяк|
+|staraĵ'|sanli|стояк|
 
 ~Язык 911
 911 (gajaja, gojojo, gijiju и т.п.) - это минималистичный язык, созданный для общения на калькуляторе
