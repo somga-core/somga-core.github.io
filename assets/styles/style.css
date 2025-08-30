@@ -127,6 +127,7 @@ header {
     height: var(--image-size);
     object-fit: cover;
     border-radius: calc(var(--corner-radius) * .6);
+    image-rendering: pixelated;
 }
 
 .project .titles .title {
@@ -191,6 +192,7 @@ header {
     height: var(--image-size);
     object-fit: cover;
     border-radius: calc(var(--corner-radius) * .6);
+    image-rendering: pixelated;
 }
 
 .project_content .data .links {
