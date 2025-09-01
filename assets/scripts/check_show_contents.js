@@ -7,7 +7,13 @@ for (let index = 0; index < key_links.length; index++) {
   key_link.onclick = key_clicked;
 }
 
-var keys_visible = false;
+var keys_visible = true;
+
+if (window.location.hash != "") {
+  keys_visible = false;
+  check_box.checked = true;
+  dict_keys.classList.add("hidden");
+}
 
 function check_box_clicked() {
   keys_visible = !check_box.checked;
