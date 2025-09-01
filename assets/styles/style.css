@@ -420,3 +420,15 @@ td {
         max-width: 500px;
     }
 }
+
+.rotating_mish {
+    width: 300px;
+}
+
+
+.rotating_mish_box {
+    padding-top: calc(2 * var(--gap-size));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
