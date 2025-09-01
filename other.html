@@ -14,7 +14,24 @@
 		<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 		<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 		
-		<script src="assets/scripts/other.js"></script>
+		<div class="article_dict">
+			<div class="article_dict_keys">
+				<script src="assets/scripts/article_keys.js"></script>
+			</div>
+
+			<div class="article_dict_show_contents">
+				<label class="show_contents_label">
+					<input class="show_contents" type="checkbox" name="show_contents" value="show_contents" onchange="check_box_clicked();">
+					<img alt="" src="https://cdn.imgchest.com/files/45xcvrkm9j7.png" class="show_contents_image">
+				</label>
+			</div>
+
+			<div class="article_dict_articles">
+				<script src="assets/scripts/articles.js"></script>
+			</div>
+		</div>
+
+		<script src="assets/scripts/check_show_contents.js"></script>
 
 		<script>
 			setTimeout(() => {document.getElementById(decodeURI(window.location.hash.slice(1))).scrollIntoView()}, 500)

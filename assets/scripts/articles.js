@@ -14,7 +14,7 @@ function formatName(name) {
 }
 
 function loadMarkdown(markdown) {
-  var html = loadFile("assets/elements/other.html").split("~");
+  var html = loadFile("assets/elements/article.html").split("~");
   var info = [markdown.split("\n")[0], markdown.split("\n").slice(1).join("\n")];
 
   return html[0] + formatName(info[0]) + html[1] + formatName(info[0]) + html[2] + info[0] + html[3] + info[1] + html[4];
