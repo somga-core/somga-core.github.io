@@ -1,8 +1,8 @@
 :root {
-    --text-color: white;
-    --bg-color: rgb(26, 26, 26);
+    --text-color: #dfdfdf;
+    --bg-color: rgb(0 0 0);
     --accent-color: rgb(204, 0, 0);
-    --highlight-color: rgb(47, 47, 47);
+    --highlight-color: rgb(28 28 28);
 
     --line-width: 2px;
     
@@ -31,14 +31,13 @@ a:hover {
 body {
     margin: 40px auto;
     padding: 0 10px;
-    max-width: 650px;
+    max-width: 950px;
 
     line-height: 1;
     font-size: 18px;
     
-    color: #444;
     background-color: var(--bg-color);
-    color: white;
+    color: var(--text-color);
 }
 
 hr {
