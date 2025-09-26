@@ -306,7 +306,7 @@ td {
     flex-direction: column;
 }
 
-.article_dict_articles {
+.article_dict_values {
     margin-left: calc(300px + (var(--gap-size) * 2));
     
     transition: var(--transition-time);
@@ -425,7 +425,7 @@ td {
         width: calc(100% - var(--gap-size) * 2);
     }
     
-    .article_dict_articles {
+    .article_dict_values {
         margin-left: 0px;
     }
 
@@ -437,7 +437,7 @@ td {
         margin-left: -120%;
     }
     
-    .article_dict_articles {
+    .article_dict_values {
         margin-bottom: 100px;
     }
 }
