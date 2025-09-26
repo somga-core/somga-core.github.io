@@ -20,7 +20,7 @@ function loadKey(key) {
   return html[0] + formatName(info[0]) + html[1] + info[0] + html[2];
 }
 
-const keys = loadFile("other.md").split("~");
+const keys = loadFile("articles.md").split("~");
 
 for (let i = 0; i < keys.length; i++) {
   document.write(loadKey(keys[i]));
