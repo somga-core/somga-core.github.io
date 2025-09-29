@@ -362,4 +362,14 @@ td {
     .hidden {
         visibility: hidden;
     }
+
+    .button_container .button h1 {
+        width: calc(var(--symbol-width) * 2);
+        overflow: hidden;
+    }
+    
+    .button_container .button {
+        width: calc(var(--gap-size) * 3);
+        overflow: hidden;
+    }
 }
