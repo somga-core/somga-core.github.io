@@ -359,11 +359,7 @@ td {
         width: calc(100% - var(--gap-size) * 2);
     }
 
-    .article_dict_keys.hidden {
-        visibility: hidden;
-    }
-
-    .article_dict_values.hidden {
+    .hidden {
         visibility: hidden;
     }
 }
