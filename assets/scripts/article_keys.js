@@ -25,3 +25,10 @@ const keys = loadFile("articles.md").split("~");
 for (let i = 0; i < keys.length; i++) {
   document.write(loadKey(keys[i]));
 }
+
+function i_feel_luck() {
+  random_index = Math.floor(Math.random() * keys.length);
+  random_hash = formatName(keys[random_index].split("\n")[0]);
+
+  window.location.href = "./articles#" + random_hash;
+}

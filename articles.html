@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Sömga core | Articles</title>
-		<link rel="shortcurt icon" href="https://i.imgur.com/2j4dJgA.png">
+		<link rel="shortcurt icon" href="https://cdn.imgchest.com/files/cfcc6ad6d2e6.png">
 		<link rel="stylesheet" href="assets/styles/style.css">
 	</head>
 
@@ -15,19 +15,25 @@
 		<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 		
 		<div class="article_dict">
-			<div class="article_dict_keys">
-				<script src="assets/scripts/article_keys.js"></script>
+			<div class="panel article_dict_keys">
+				<div class="vertical_container article_dict_keys_container">
+					<script src="assets/scripts/article_keys.js"></script>
+					<a class="button i_feel_luck" onclick="i_feel_luck();"><h1>Мне повезёт</h1></a>
+				</div>
 			</div>
 
 			<div class="article_dict_show_contents">
 				<label class="show_contents_label">
 					<input class="show_contents" type="checkbox" name="show_contents" value="show_contents" onchange="check_box_clicked();">
-					<img alt="" src="https://cdn.imgchest.com/files/45xcvrkm9j7.png" class="show_contents_image">
+					<a class="button show_contents_button"><h1>Cодержание</h1></a>
 				</label>
 			</div>
-
-			<div class="article_dict_values">
-				<script src="assets/scripts/articles.js"></script>
+			
+			<div class="article_dict_values_container horisontal_container">
+				<div class="article_dict_values_space"></div>
+				<div class="article_dict_values vertical_container hidden">
+					<script src="assets/scripts/articles.js"></script>
+				</div>
 			</div>
 		</div>
 
