@@ -9,26 +9,32 @@ function loadFile(filePath) {
     return result;
 }
 
-function getGithubInfo(link) {
-  var splited_link = link.split(" ")[0].split("/");
-  var image_link = link.split(" ")[1];
-  var source_link = link.split(" ")[0];
-  var name = link.split(" ").slice(2).join(" ");
+function loadButtons(links) {
+  var html = loadFile("assets/elements/project_content_button.html").split("~");
 
-  return [name, splited_link[3], source_link, source_link + "/archive/refs/heads/main.zip", "https://raw.githubusercontent.com/" + splited_link[3] + "/" + splited_link[4] + "/main/README.md"];
+  var result = ""
+  
+  for (var title in links) {
+    result += html[0] + links[title] + html[1] + title + html[2]
+  }
+
+  return result
 }
 
-function loadProjectContent(info) {
+function loadProjectContent(name, info) {
   var html = loadFile("assets/elements/project_content.html").split("~");
 
-  return html[0] + info[0] + html[1] + info[1] + html[2] + info[2] + html[3] + info[3] + html[4] + info[4] + html[5];
+  return html[0] + name + html[1] + info["author"] + html[2] + loadButtons(info["links"]) + html[3] + info["readme"] + html[4];
 }
 
-const id = new URLSearchParams(window.location.search).get('id');
-const links = loadFile("../projects.txt").split("\n").reverse()[id];
+var projects = eval("(" + loadFile("../projects.json") + ")");
+const id = Object.values(projects).length - 1 - new URLSearchParams(window.location.search).get('id')
+const project = Object.values(projects)[id]
+const name = Object.keys(projects)[id]
 
-if (links){
-  document.write(loadProjectContent(getGithubInfo(links)));
+if (project){
+  document.write(loadProjectContent(name, project));
+
   var error = document.getElementsByClassName("error_404")[0]
   error.parentNode.removeChild(error);
 }

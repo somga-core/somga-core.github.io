@@ -1,0 +1,60 @@
+{
+    "Мини регата": {
+        "links": {
+            "GitHub": "https://github.com/K0RSY/MiniRegatta",
+            "Itch.io": "https://k0rsy.itch.io/mini-regatta"
+        },
+        "image": "https://cdn.imgchest.com/files/yq9c3w3gm54.png",
+        "readme": "https://raw.githubusercontent.com/K0RSY/MiniRegatta/main/README.md",
+        "author": "_Korsy_"
+    },
+    "C++ёр": {
+        "links": {
+            "GitHub": "https://github.com/K0RSY/MineCppEr"
+        },
+        "image": "https://cdn.imgchest.com/files/yq9c32woxj4.png",
+        "readme": "https://raw.githubusercontent.com/K0RSY/MineCppEr/main/README.md",
+        "author": "_Korsy_"
+    },
+    "Loopy trams": {
+        "links": {
+            "GitHub": "https://github.com/somga-core/loopy-trams",
+            "Itch.io": "https://k0rsy.itch.io/loopy-trams"
+        },
+        "image": "https://github.com/somga-core/loopy-trams/blob/main/assets/tram/tram_down_left.png?raw=true",
+        "readme": "https://raw.githubusercontent.com/somga-core/loopy-trams/main/README.md",
+        "author": "_Korsy_ d54267ygi"
+    },
+    "RITOPOS": {
+        "links": {
+            "GitHub": "https://github.com/d54267ygi/RITOPOS"
+        },
+        "image": "https://cdn.imgchest.com/files/7w6c2q82zvy.png",
+        "readme": "https://raw.githubusercontent.com/d54267ygi/RITOPOS/main/README.md",
+        "author": "d54267ygi"
+    },
+    "Space around": {
+        "links": {
+            "GitHub": "https://github.com/K0RSY/SpaceAround"
+        },
+        "image": "https://github.com/K0RSY/SpaceAround/blob/main/icon.png?raw=true",
+        "readme": "https://raw.githubusercontent.com/K0RSY/SpaceAround/main/README.md",
+        "author": "_Korsy_"
+    },
+    "CLGame": {
+        "links": {
+            "GitHub": "https://github.com/K0RSY/CLGame"
+        },
+        "image": "https://github.com/K0RSY/CLGame/blob/main/icon.png?raw=true",
+        "readme": "https://raw.githubusercontent.com/K0RSY/CLGame/main/README.md",
+        "author": "_Korsy_"
+    },
+    "Во имя пряника": {
+        "links": {
+            "GitHub": "https://github.com/K0RSY/ForTheNameOfPruanik"
+        },
+        "image": "https://github.com/K0RSY/ForTheNameOfPruanik/blob/main/assets/textures/icon.png?raw=true",
+        "readme": "https://raw.githubusercontent.com/K0RSY/ForTheNameOfPruanik/main/README.md",
+        "author": "_Korsy_ d54267ygi"
+    }
+}

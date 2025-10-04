@@ -1,7 +1,0 @@
-https://github.com/K0RSY/MiniRegatta https://cdn.imgchest.com/files/yq9c3w3gm54.png Мини регата
-https://github.com/K0RSY/MineCppEr https://cdn.imgchest.com/files/yq9c32woxj4.png C++ёр
-https://github.com/somga-core/loopy-trams https://github.com/somga-core/loopy-trams/blob/main/assets/tram/tram_down_left.png?raw=true Loopy trams
-https://github.com/d54267ygi/RITOPOS https://cdn.imgchest.com/files/7w6c2q82zvy.png RITOPOS
-https://github.com/K0RSY/SpaceAround https://github.com/K0RSY/SpaceAround/blob/main/icon.png?raw=true Space around
-https://github.com/K0RSY/CLGame https://github.com/K0RSY/CLGame/blob/main/icon.png?raw=true CLGame
-https://github.com/K0RSY/ForTheNameOfPruanik https://github.com/K0RSY/ForTheNameOfPruanik/blob/main/assets/textures/icon.png?raw=true Во имя пряника

@@ -1,33 +1,24 @@
 function loadFile(filePath) {
-    var result = null;
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", filePath, false);
-    xmlhttp.send();
-    if (xmlhttp.status==200) {
-      result = xmlhttp.responseText;
-    }
-    return result;
-}
-
-function getGithubInfo(link) {
-  var splited_link = link.split(" ")[0].split("/");
-  var image_link = link.split(" ")[1];
-  var name = link.split(" ").slice(2).join(" ");
-
-  var result = ["project?id=" + projects.reverse().indexOf(link), name, image_link, splited_link[3]]
-  projects.reverse()
-
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", filePath, false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
+  }
   return result;
 }
 
-function loadProject(info) {
+function loadProject(name, info, i) {
   var html = loadFile("assets/elements/project.html").split("~");
 
-  return html[0] + info[0] + html[1] + info[2] + html[2] + info[1] + html[3] + info[3] + html[4];
+  return html[0] + "./project?id=" + i + html[1] + info["image"] + html[2] + name + html[3] + info["author"] + html[4];
 }
 
-var projects = loadFile("projects.txt").split("\n");
+var projects = eval("(" + loadFile("./projects.json") + ")");
+var i = Object.keys(projects).length - 1;
 
-for (let i = 0; i < projects.length; i++) {
-  document.write(loadProject(getGithubInfo(projects[i])) + "\n");
+for (var project_name in projects) {
+  document.write(loadProject(project_name, projects[project_name], i) + "\n");
+  i--;
 }
