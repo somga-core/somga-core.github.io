@@ -14,6 +14,7 @@ if (window.location.hash != "") {
   keys_visible = false;
   check_box.checked = true;
   dict_keys.classList.add("hidden");
+  dict_values.classList.remove("hidden");
 }
 
 function check_box_clicked() {
