@@ -30,7 +30,7 @@ table {
     padding-top: calc(var(--gap-size) / 2);
     padding-bottom: calc(var(--gap-size) / 2);
     display: block;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     max-width: max-content;
     
@@ -123,12 +123,9 @@ ul {
     color: var(--text-middle-color);
 }
 
-:first-child {
-    margin-top: 0px;
-}
-
 code {
     border-radius: var(--corner-radius);
+    font-family: "SomgaFont";
     
     color: var(--text-light-color);
 }
@@ -136,7 +133,7 @@ code {
 pre {
     padding: calc(var(--gap-size) / 2);
     display: block;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     max-width: max-content;
     

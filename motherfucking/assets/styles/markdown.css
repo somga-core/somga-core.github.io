@@ -24,7 +24,7 @@ table {
     border-color: var(--highlight-color);
     
     display: block;
-    overflow-x: scroll;
+    overflow-x: auto;
     
     max-width: max-content;
 }
@@ -49,5 +49,5 @@ pre {
     border-width: var(--line-width);
     border-color: var(--highlight-color);
 
-    overflow-x: scroll;
+    overflow-x: auto;
 }

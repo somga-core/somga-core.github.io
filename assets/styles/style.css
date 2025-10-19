@@ -15,6 +15,8 @@
     --bg-middle-color: #191919;
     --bg-dark-color: #121212;
     
+    --bg-dark-transparent-color: rgba(18, 18, 18, 0);
+    
     --text-light-color: #E5E5E5;
     --text-middle-color: #B3B3B3;
     --text-dark-color: #595959;
@@ -197,27 +199,29 @@ a.panel:hover {
     height: 100%;
 }
 
-header {
+header .panel {
     width: calc(100% - var(--gap-size) * 2);
+    margin: var(--gap-size);
+}
 
+header {
+    width: 100%;
+
+    background: linear-gradient(to bottom, var(--bg-dark-color) calc(var(--gap-size) + var(--panel-height)), var(--bg-dark-transparent-color));
+    
     position: fixed;
-    top: var(--gap-size);
-    left: var(--gap-size);
-    box-shadow:
-        0 calc(var(--gap-size) / 1.5) var(--gap-size) var(--bg-dark-color),
-        0 calc(-1 * var(--gap-size) - 10px) 0 var(--bg-dark-color);
+    top: 0;
+    left: 0;
 }
 
 footer {
     width: 100%;
-
     height: var(--gap-size);
     
-    box-shadow:
-        0 calc(-1 * var(--gap-size) / 1.5) var(--gap-size) var(--bg-dark-color);
+    background: linear-gradient(to top, var(--bg-dark-color), var(--bg-dark-transparent-color));
 
     position: fixed;
-    bottom: calc(-1 * var(--gap-size));
+    bottom: 0;
     left: 0;
 }
 
@@ -371,5 +375,9 @@ td {
     .button_container .button {
         width: calc(var(--gap-size) * 3);
         overflow: hidden;
+    }
+
+    .show_contents_button {
+        box-shadow: 0px 0px var(--gap-size) var(--bg-dark-color);
     }
 }
