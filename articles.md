@@ -318,9 +318,11 @@
 - nbh
 
 Тест:
+<fieldset>
 <label><input type="radio" name="1">гадеум</label>
 <label><input type="radio" name="1">гадеум</label>
 <label><input type="radio" name="1">гадеум</label>
+</fieldset>
 
 SD:
 <fieldset>

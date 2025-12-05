@@ -206,6 +206,8 @@ input[type=checkbox] {
     max-width: var(--symbol-width);
 
     accent-color: var(--accent-color);
+
+    cursor: pointer;
 }
 
 input[type=radio] {
@@ -218,6 +220,12 @@ input[type=radio] {
     max-width: var(--symbol-width);
 
     accent-color: var(--accent-color);
+
+    cursor: pointer;
+}
+
+input[type=range] {
+    accent-color: var(--accent-color);
 }
 
 label {
@@ -228,13 +236,16 @@ label {
     margin: 0px;
     color: var(--text-middle-color);
     font-weight: var(--font-weight-light);
+
+    cursor: pointer;
 }
 
 fieldset {
     margin: 0;
     padding: 0;
+
     padding-left: calc(var(--symbol-width) * 2);
-    outline: 0;
+
     border: 0;
 }
 
