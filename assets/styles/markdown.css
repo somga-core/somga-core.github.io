@@ -204,6 +204,8 @@ input[type=checkbox] {
 
     height: var(--line-height);
     max-width: var(--symbol-width);
+
+    accent-color: var(--accent-color);
 }
 
 input[type=radio] {
@@ -214,6 +216,8 @@ input[type=radio] {
 
     height: var(--line-height);
     max-width: var(--symbol-width);
+
+    accent-color: var(--accent-color);
 }
 
 label {

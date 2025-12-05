@@ -330,7 +330,7 @@ SD:
 
 SD:
 <fieldset>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4">гадеум</label>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4">гадеум</label>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4">гадеум</label>
+<label><input type="checkbox">гадеум</label>
+<label><input type="checkbox">гадеум</label>
+<label><input type="checkbox">гадеум</label>
 </fieldset>
