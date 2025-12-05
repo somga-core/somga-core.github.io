@@ -196,6 +196,18 @@ input[type=button]:hover {
     background: var(--bg-light-selected-color);
 }
 
+input[type=checkbox] {
+    height: var(--line-height);
+}
+
+input[type=radio] {
+    height: var(--line-height);
+}
+
+label {
+    display: inline;
+}
+
 button {
     font-family: "SomgaFont";
 
