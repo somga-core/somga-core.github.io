@@ -319,18 +319,27 @@
 
 Тест:
 <fieldset>
-<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+<label><input type="radio" id="1" value="2">гадеум</label>
+<label><input type="radio" id="2" value="2">гадеум</label>
+<label><input type="radio" id="3" value="2">гадеум</label>
 </fieldset>
 
+Тест:
+<fieldset>
+<label><input type="radio" id="1" value="1">гадеум</label>
+<label><input type="radio" id="1" value="2">гадеум</label>
+<label><input type="radio" id="1" value="3">гадеум</label>
+</fieldset>
+
+SD:
 <fieldset>
 <label><input type="radio" id="contactChoice1" name="contact" value="email" />Email</label>
 <label><input type="radio" id="contactChoice2" name="contact" value="phone" />Phon</label>
 </fieldset>
 
+SD:
 <fieldset>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+<label><input type="checkbox" label="1" value="2" text="3" placeholder="4">гадеум</label>
+<label><input type="checkbox" label="1" value="2" text="3" placeholder="4">гадеум</label>
+<label><input type="checkbox" label="1" value="2" text="3" placeholder="4">гадеум</label>
 </fieldset>
