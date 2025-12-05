@@ -191,6 +191,10 @@ input[type=button] {
     cursor: pointer;
 }
 
+input[type=color] {
+    padding: 0px;
+}
+
 input[type=button]:hover {
     background: var(--bg-light-selected-color);
 }
