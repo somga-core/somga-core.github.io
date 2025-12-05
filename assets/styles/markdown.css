@@ -193,6 +193,15 @@ input[type=button] {
 
 input[type=color] {
     padding: 0px;
+
+    background-color: var(--bg-light-color);
+    
+    border-radius: var(--corner-radius);
+    border: var(--line-width) solid var(--border-color);
+    
+    cursor: pointer;
+
+    max-width: calc(var(--symbol-width) * 4);
     width: calc(var(--symbol-width) * 4);
 }
 
