@@ -325,6 +325,17 @@
 </fieldset>
 
 <fieldset>
+<input type="radio" id="contactChoice1" name="contact" value="email" />
+<label for="contactChoice1">Email</label>
+
+<input type="radio" id="contactChoice2" name="contact" value="phone" />
+<label for="contactChoice2">Phone</label>
+
+<input type="radio" id="contactChoice3" name="contact" value="mail" />
+<label for="contactChoice3">Mail</label>
+</fieldset>
+
+<fieldset>
 <label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
 <label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
 <label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
