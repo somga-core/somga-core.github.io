@@ -197,15 +197,18 @@ input[type=button]:hover {
 }
 
 input[type=checkbox] {
+    padding: 0;
     height: var(--line-height);
 }
 
 input[type=radio] {
+    padding: 0;
     height: var(--line-height);
 }
 
 label {
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 fieldset {
