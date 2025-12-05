@@ -170,6 +170,7 @@ input {
 
 input:focus {
     border-color: var(--border-color);
+    outline: 0;
 }
 
 input[type=button] {
