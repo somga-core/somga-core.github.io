@@ -164,6 +164,8 @@ input {
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
+    width: calc(var(--symbol-width) * 25);
+
     margin-top: calc(var(--line-height) / 2);
     margin-bottom: calc(var(--line-height) / 2);
 }
@@ -232,7 +234,8 @@ input[type=range] {
     padding: 0;
 
     height: var(--line-height);
-    width: calc(var(--symbol-width) * 10);
+    width: calc(var(--symbol-width) * 25);
+    max-width: calc(var(--symbol-width) * 25);
 }
 
 label {
