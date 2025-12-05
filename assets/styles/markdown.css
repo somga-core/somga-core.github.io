@@ -193,6 +193,7 @@ input[type=button] {
 
 input[type=color] {
     padding: 0px;
+    width: calc(var(--symbol-width)) * 4;
 }
 
 input[type=button]:hover {
