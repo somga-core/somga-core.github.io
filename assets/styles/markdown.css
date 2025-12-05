@@ -197,17 +197,21 @@ input[type=button]:hover {
 }
 
 input[type=checkbox] {
+    margin: 0;
     padding: 0;
     height: var(--line-height);
 }
 
 input[type=radio] {
     padding: 0;
+    margin: 0;
     height: var(--line-height);
+    width: calc(var(--symbol-width) * 2);
 }
 
 label {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
