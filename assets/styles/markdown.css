@@ -151,6 +151,8 @@ ul {
 }
 
 input {
+    font-family: "SomgaFont";
+
     padding: calc(var(--gap-size) / 2);
     display: block;
     overflow-x: auto;
@@ -190,6 +192,8 @@ input[type=button]:hover {
 }
 
 button {
+    font-family: "SomgaFont";
+    
     padding-left: calc(var(--gap-size) / 2);
     padding-right: calc(var(--gap-size) / 2);
     padding-top: calc(var(--gap-size) / 3);
