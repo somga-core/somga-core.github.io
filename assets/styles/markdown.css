@@ -213,6 +213,10 @@ label {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    margin: 0px;
+    color: var(--text-middle-color);
+    font-weight: var(--font-weight-light);
 }
 
 fieldset {
