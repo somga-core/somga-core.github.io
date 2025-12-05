@@ -301,12 +301,12 @@
 Мммхфмх, мхх мм, хфм, ммхф хмф мм хфм, ммм хмф. Мм хфм мммхфмх: мммхфмх мммхфмх мхх, ммм, ххмфхф: хмф ххмфхф. Мхф: хмф мм мф мхф мхф: хмф мммхфмх, хмфхмф мхф? Ммм мхх мхф мхф мхф, хфм ммм мммхфмх ммхф, ммм
 
 ~Интерактивная статья
-<input type="text">гадээээм
-<input type="password">гадээээм
-<input type="number">гадээээм
-<input type="email">гадээээм
-<input type="color">гадээээм
-<input type="button">гадээээм</input>
-<input type="radio">гадээээм
-<input type="checkbox">гадээээм
+<input type="text" label="1" value="2" text="3" placeholder="4">
+<input type="password" label="1" value="2" text="3" placeholder="4">
+<input type="number" label="1" value="2" text="3" placeholder="4">
+<input type="email" label="1" value="2" text="3" placeholder="4">
+<input type="color" label="1" value="2" text="3" placeholder="4">
+<input type="button" label="1" value="2" text="3" placeholder="4">
+<input type="radio" label="1" value="2" text="3" placeholder="4">
+<input type="checkbox" label="1" value="2" text="3" placeholder="4">
 <button>гадээээм</button>
