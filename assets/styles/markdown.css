@@ -192,23 +192,6 @@ input[type=button] {
     cursor: pointer;
 }
 
-input[type=color] {
-    padding-left: calc(var(--gap-size) / 2);
-    padding-right: calc(var(--gap-size) / 2);
-    padding-top: calc(var(--gap-size) / 3);
-    padding-bottom: calc(var(--gap-size) / 3);
-
-    background-color: var(--bg-light-color);
-    
-    border-radius: var(--corner-radius);
-    border: var(--line-width) solid var(--border-color);
-    
-    cursor: pointer;
-
-    max-width: calc(var(--symbol-width) * 2);
-    width: calc(var(--symbol-width) * 2);
-}
-
 input[type=button]:hover {
     background: var(--bg-light-selected-color);
 }
@@ -232,6 +215,9 @@ button {
     border: var(--line-width) solid var(--border-color);
 
     cursor: pointer;
+    
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
 }
 
 button:hover {

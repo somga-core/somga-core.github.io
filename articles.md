@@ -311,3 +311,21 @@
 <label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
 <label><input type="range" label="1" value="2" text="3" placeholder="4"> гадеум</label>
 <button>гадээээм</button>
+
+Тест:
+- один
+- дав
+- nbh
+
+Тест:
+<fieldset>
+<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+</fieldset>
+
+<fieldset>
+<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
+</fieldset>
