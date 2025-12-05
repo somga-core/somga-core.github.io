@@ -300,39 +300,16 @@
 
 Мммхфмх, мхх мм, хфм, ммхф хмф мм хфм, ммм хмф. Мм хфм мммхфмх: мммхфмх мммхфмх мхх, ммм, ххмфхф: хмф ххмфхф. Мхф: хмф мм мф мхф мхф: хмф мммхфмх, хмфхмф мхф? Ммм мхх мхф мхф мхф, хфм ммм мммхфмх ммхф, ммм
 
-~Интерактивная статья
-<label><input type="text" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="password" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="number" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="email" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="color" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="button" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="radio" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="checkbox" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<label><input type="range" label="1" value="2" text="3" placeholder="4"> гадеум</label>
-<button>гадээээм</button>
+~Интенциометр
+Счётчик ниже считает твою интенцию. Нажимай на него, чтобы привести его в действие
 
-Тест:
-- один
-- дав
-- nbh
+<button id="intentiometer" onclick="measureIntention()">Ваша интенция: 0</button>
 
-Тест:
-<fieldset>
-<label><input type="radio" name="1">гадеум</label>
-<label><input type="radio" name="1">гадеум</label>
-<label><input type="radio" name="1">гадеум</label>
-</fieldset>
+<script>
+var intention = 0;
 
-SD:
-<fieldset>
-<label><input type="radio" id="contactChoice1" name="contact" value="email" />Email</label>
-<label><input type="radio" id="contactChoice2" name="contact" value="phone" />Phon</label>
-</fieldset>
-
-SD:
-<fieldset>
-<label><input type="checkbox">гадеум</label>
-<label><input type="checkbox">гадеум</label>
-<label><input type="checkbox">гадеум</label>
-</fieldset>
+function measureIntention() {
+    intention += 1;
+    document.getElementById("intentiometer").textContent = "Ваша интенция: " + intention;
+}
+</script>
