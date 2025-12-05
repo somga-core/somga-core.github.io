@@ -309,4 +309,5 @@
 <input type="button" label="1" value="2" text="3" placeholder="4">
 <input type="radio" label="1" value="2" text="3" placeholder="4">
 <input type="checkbox" label="1" value="2" text="3" placeholder="4">
+<input type="range" label="1" value="2" text="3" placeholder="4">
 <button>гадээээм</button>
