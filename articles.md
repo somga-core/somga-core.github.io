@@ -301,6 +301,8 @@
 Мммхфмх, мхх мм, хфм, ммхф хмф мм хфм, ммм хмф. Мм хфм мммхфмх: мммхфмх мммхфмх мхх, ммм, ххмфхф: хмф ххмфхф. Мхф: хмф мм мф мхф мхф: хмф мммхфмх, хмфхмф мхф? Ммм мхх мхф мхф мхф, хфм ммм мммхфмх ммхф, ммм
 
 ~Интенциометр
-Счётчик ниже считает твою интенцию. Нажимай на него, чтобы привести его в действие <script>var intention = 0; function measureIntention() {intention += 1;document.getElementById("intentiometer").textContent = "Ваша интенция: " + intention;}</script> <button id="intentiometer" onclick="measureIntention()">Ваша интенция: 0</button>
+Счётчик ниже считает твою интенцию. Нажимай на него, чтобы привести его в действие
+
+<button id="intentiometer" onclick="measureIntention()">Ваша интенция: 0</button>
 
 тест
