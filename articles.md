@@ -302,3 +302,5 @@
 
 ~Интенциометр
 Счётчик ниже считает твою интенцию. Нажимай на него, чтобы привести его в действие <script>var intention = 0; function measureIntention() {intention += 1;document.getElementById("intentiometer").textContent = "Ваша интенция: " + intention;}</script> <button id="intentiometer" onclick="measureIntention()">Ваша интенция: 0</button>
+
+тест
