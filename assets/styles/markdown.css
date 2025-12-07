@@ -149,7 +149,7 @@ pre {
 ul {
     padding-left: calc(var(--symbol-width) * 4);
 }
-
+/* 
 input {
     font-family: "SomgaFont";
 
@@ -283,4 +283,4 @@ button {
 
 button:hover {
     background: var(--bg-light-selected-color);
-}
+} */
