@@ -1,6 +1,5 @@
 Telegram https://www.t.me/somga_core_channel https://cdn.imgchest.com/files/y8xcn5levo4.png Новости и смешные картинки
 Discord https://www.discord.gg/AVS8gJKcDt https://cdn.imgchest.com/files/7w6c23mb63y.png Подробные новости и чат
 YouTube https://www.youtube.com/@somga-core https://cdn.imgchest.com/files/4z9cvz8ejb7.png Анонсы проектов
-Discussions https://www.t.me/somga_core_discussions https://cdn.imgchest.com/files/yrgcnjkrbz4.png Обсуждения новостей
 Bot https://www.t.me/somga_core_bot https://cdn.imgchest.com/files/yq9c3l5dbn4.png Тестовый бот без функций
 GitHub https://www.github.com/somga-core https://cdn.imgchest.com/files/4jdcvewzgl4.png Говнокод наших проектов

@@ -59,6 +59,7 @@ body {
 }
 
 img {
+    image-rendering: pixelated;
     width: 100%;
 }
 
@@ -353,10 +354,9 @@ td {
 
 .qrcode {
     border-radius: var(--corner-radius);
-
-    border: var(--line-width) solid var(--border-color);
     
-    max-width: 170px;
+    height: 170px;
+    width: auto;
 }
 
 @media (max-width: 550px) {
@@ -396,5 +396,12 @@ td {
 
     .show_contents_button {
         box-shadow: 0px 0px var(--gap-size) var(--bg-dark-color);
+    }
+
+    .qrcode {
+        object-fit: cover;
+        overflow: hidden;
+        width: 170px;
+        height: 170px;
     }
 }
