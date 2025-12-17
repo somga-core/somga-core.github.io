@@ -1,4 +1,12 @@
 {
+	"TeCo": {
+		"links": {
+			"GitHub": "https://github.com/somga-core/teco"
+		},
+		"image": "https://cdn.imgchest.com/files/831474253b85.png",
+		"readme": "https://raw.githubusercontent.com/somga-core/tecp/main/README.md",
+		"author": "_Korsy_ d54267ygi"
+	},
     "Мини регата": {
         "links": {
             "GitHub": "https://github.com/K0RSY/MiniRegatta",
