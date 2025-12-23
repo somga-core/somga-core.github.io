@@ -113,6 +113,10 @@ p {
     font-weight: var(--font-weight-light);
 }
 
+:last-child {
+    margin-bottom: 0px;
+}
+
 b {
     margin: 0px;
     font-weight: var(--font-weight-bold);
