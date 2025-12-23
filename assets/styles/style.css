@@ -406,6 +406,6 @@ td {
     }
     
     .article_dict_values:last-child {
-        margin-bottom: calc(var(--gap-size) * 2.5);
+        margin-bottom: calc(var(--gap-size) * 2.8);
     }
 }
