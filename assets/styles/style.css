@@ -318,6 +318,10 @@ td {
     align-items: start;
 }
 
+.article_dict_values:last-child {
+    margin-bottom: calc(var(--gap-size) * 4);
+}
+
 .article_key {
     align-items: start;
 }
