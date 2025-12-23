@@ -318,10 +318,6 @@ td {
     align-items: start;
 }
 
-.article_dict_values:last-child {
-    margin-bottom: calc(var(--gap-size) * 4);
-}
-
 .article_key {
     align-items: start;
 }
@@ -407,5 +403,9 @@ td {
         overflow: hidden;
         width: 170px;
         height: 170px;
+    }
+    
+    .article_dict_values:last-child {
+        margin-bottom: calc(var(--gap-size) * 2);
     }
 }
