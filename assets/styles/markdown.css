@@ -13,10 +13,6 @@ img {
     src: url("../font/JetBrainsMono.ttf");
 }
 
-a {
-    color: var(--accent-color);
-}
-
 img {
     border-radius: var(--corner-radius);
 }
@@ -153,6 +149,12 @@ pre {
 ul {
     padding-left: calc(var(--symbol-width) * 4);
 }
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 /* 
 input {
     font-family: "SomgaFont";
