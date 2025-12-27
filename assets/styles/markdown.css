@@ -151,11 +151,8 @@ ul {
 }
 
 a {
-    color: var(--accent-color);
-}
-
-a code {
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 /* 
