@@ -152,7 +152,10 @@ ul {
 
 a {
     color: var(--accent-color);
-    text-decoration: none;
+}
+
+a code {
+    text-decoration: underline;
 }
 
 /* 
