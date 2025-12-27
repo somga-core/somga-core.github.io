@@ -147,12 +147,14 @@ pre {
 }
 
 ul {
+    color: var(--text-middle-color);
     padding-left: calc(var(--symbol-width) * 4);
 }
 
 a {
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
+    text-decoration-style: dashed;
 }
 
 /* 
