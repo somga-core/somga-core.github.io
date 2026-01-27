@@ -378,36 +378,36 @@
 
 |Cмвл|Название|
 |:-|:-|
-|`:=`|double dick|
-|`=`|double dick with no balls|
-|`==`|long double dick with no balls|
-|`:`|balls|
-|`;`|ball and cracked ball|
-|`>`|merged double dick with no balls|
-|`<`|separated dick with no balls|
-|`≥`|merged double dick with dick with no balls|
-|`≤`|separated dick with dick with no balls|
-|`:-`|dick|
-|`-`|dick with no balls|
-|`+`|crossed dicks with no balls|
-|`*`|dick wheel with no balls|
-|`/`|angled to the right dick with no balls|
-|`\`|angled to the left dick with no balls|
-|`%`|angled dick|
-|`(`|curved to the right dick with no balls|
-|`)`|curved to the left dick with no balls|
-|`{`|deformed to the right dick with no balls|
-|`}`|deformed to the left dick with no balls|
-|`[`|metal right dick with no balls|
-|`]`|metal left dick with no balls|
-|`,`|cracked ball|
-|`.`|ball|
-|`\|`|perpendicular dick with no balls|
-|`_`|offsetted down dick with no balls|
-|`"`|offsetted up cracked balls|
-|`'`|offsetted up cracked ball|
-|`!`|perpendicular dick without one ball|
-|`::`|double balls|
-|`\|\|`|double perpendicular dick with no balls|
-|`&`|tied dick|
-|`&&`|double tied dick|
+|:=|double dick|
+|=|double dick with no balls|
+|==|long double dick with no balls|
+|:|balls|
+|;|ball and cracked ball|
+|>|merged double dick with no balls|
+|<|separated dick with no balls|
+|≥|merged double dick with dick with no balls|
+|≤|separated dick with dick with no balls|
+|:-|dick|
+|-|dick with no balls|
+|+|crossed dicks with no balls|
+|*|dick wheel with no balls|
+|/|angled to the right dick with no balls|
+|\ |angled to the left dick with no balls|
+|%|angled dick|
+|(|curved to the right dick with no balls|
+|)|curved to the left dick with no balls|
+|{|deformed to the right dick with no balls|
+|}|deformed to the left dick with no balls|
+|[|metal right dick with no balls|
+|]|metal left dick with no balls|
+|,|cracked ball|
+|.|ball|
+|\||perpendicular dick with no balls|
+|_|offsetted down dick with no balls|
+|"|offsetted up cracked balls|
+|'|offsetted up cracked ball|
+|!|perpendicular dick without one ball|
+|::|double balls|
+|\|\||double perpendicular dick with no balls|
+|&|tied dick|
+|&&|double tied dick|
