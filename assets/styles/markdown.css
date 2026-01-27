@@ -63,43 +63,48 @@ tr {
 
 h1 {
     margin: 0px;
+    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h2 {
     margin: 0px;
+    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h3 {
     margin: 0px;
+    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h4 {
     margin: 0px;
+    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h5 {
     margin: 0px;
+    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h6 {
     margin: 0px;
+    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 p {
     margin: 0px;
-    margin-bottom: var(--line-height);
     color: var(--text-middle-color);
     font-weight: var(--font-weight-light);
 }
@@ -143,7 +148,6 @@ pre {
 
 ul {
     padding-left: calc(var(--symbol-width) * 4);
-    margin-bottom: var(--line-height);
 }
 
 a {
