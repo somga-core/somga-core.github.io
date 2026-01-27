@@ -370,3 +370,44 @@
 ## Предмет на земле
 Идёт Холмс по улице. Видит - на земле что-то валяется. Он нагнулся, взял, пощупал, понюхал, лизнул. Вынес вердикт:
 - Да это же говно! Хорошо что не наступил!
+
+~Dick operators
+В некоторых языках программирования (например, Паскаль или Го) присвоение осуществляется с помощью символов `:=`, которые в народе прозвали `double dick operator`
+
+Вот таблица другими символами, названными по аналогии:
+
+|Символы|Название|
+|:-|:-|
+|:=|double dick|
+|=|double dick with no balls|
+|==|long double dick with no balls|
+|:|balls|
+|;|ball and cracked ball|
+|>|merged double dick with no balls|
+|<|separated dick with no balls|
+|≥|merged double dick with dick with no balls|
+|≤|separated dick with dick with no balls|
+|:-|dick|
+|-|dick with no balls|
+|+|crossed dicks with no balls|
+|*|dick wheel with no balls|
+|/|angled to the right dick with no balls|
+|\ |angled to the left dick with no balls|
+|%|angled dick|
+|(|curved to the right dick with no balls|
+|)|curved to the left dick with no balls|
+|{|deformed to the right dick with no balls|
+|}|deformed to the left dick with no balls|
+|[|metal right dick with no balls|
+|]|metal left dick with no balls|
+|,|cracked ball|
+|.|ball|
+|\||perpendicular dick with no balls|
+|_|offsetted down dick with no balls|
+|"|offsetted up cracked balls|
+|'|offsetted up cracked ball|
+|!|perpendicular dick without one ball|
+|::|double balls|
+|\|\||double perpendicular dick with no balls|
+|&|tied dick|
+|&&|double tied dick|
