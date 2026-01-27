@@ -143,17 +143,13 @@ pre {
 
 ul {
     padding-left: calc(var(--symbol-width) * 4);
+    margin-bottom: var(--line-height);
 }
 
 a {
     color: var(--text-middle-color);
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
-}
-
-li {
-    margin: 0px;
-    margin-bottom: var(--line-height);
 }
 
 /* 
