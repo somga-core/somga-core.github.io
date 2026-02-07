@@ -409,5 +409,6 @@
 |!|perpendicular dick without one ball|
 |::|double balls|
 |\|\||double perpendicular dick with no balls|
-|&|tied dick|
-|&&|double tied dick|
+|&|tied dick with no balls|
+|&&|double tied dick with no balls|
+|?|curved to the left dick with one ball|

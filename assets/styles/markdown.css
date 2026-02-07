@@ -43,6 +43,7 @@ th {
     padding-left: calc(var(--gap-size) / 2);
     padding-right: calc(var(--gap-size) / 2);
     color: var(--text-light-color);
+    vertical-align: top;
 }
 
 td {
@@ -50,6 +51,7 @@ td {
     padding-right: calc(var(--gap-size) / 2);
     gap: var(--line-height);
     color: var(--text-middle-color);
+    vertical-align: top;
 }
 
 tr {
