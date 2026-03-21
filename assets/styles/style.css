@@ -119,11 +119,6 @@ b {
     font-weight: var(--font-weight-bold);
 }
 
-::selection {
-    background-color: var(--accent-color); 
-    color: var(--bg-middle-color);
-}
-
 .icon {
     height: calc(var(--panel-height) - var(--gap-size) * 2);
     width: calc(var(--panel-height) - var(--gap-size) * 2);
@@ -360,6 +355,11 @@ td {
     
     height: 170px;
     width: auto;
+}
+
+::selection {
+    background-color: var(--accent-color); 
+    color: var(--bg-middle-color);
 }
 
 @media (max-width: 550px) {

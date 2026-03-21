@@ -17,11 +17,6 @@ img {
     border-radius: var(--corner-radius);
 }
 
-::selection {
-    background-color: var(--accent-color);
-    color: var(--text-color);
-}
-
 table {
     padding-top: calc(var(--gap-size) / 2);
     padding-bottom: calc(var(--gap-size) / 2);
@@ -156,6 +151,11 @@ a {
     color: var(--text-middle-color);
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
+}
+
+::selection {
+    background-color: var(--accent-color);
+    color: var(--text-color);
 }
 
 /* 
