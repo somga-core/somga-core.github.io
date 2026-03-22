@@ -30,8 +30,9 @@ table {
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
-    margin-top: 0;
-    margin-bottom: var(--line-height);
+    margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
 }
 
 th {
@@ -60,50 +61,64 @@ tr {
 
 h1 {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h2 {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h3 {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h4 {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h5 {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h6 {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 p {
     margin: 0px;
-    margin-bottom: var(--line-height);
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-middle-color);
     font-weight: var(--font-weight-light);
 }
 
 li {
     margin: 0px;
-    margin-bottom: var(--line-height);
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
 }
 
 :last-child {
@@ -139,8 +154,9 @@ pre {
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
-    margin-top: 0;
-    margin-bottom: var(--line-height);
+    margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
 }
 
 ul {
@@ -179,6 +195,7 @@ input {
     
     width: calc(var(--symbol-width) * 25);
 
+    margin: 0px;
     margin-top: calc(var(--line-height) / 2);
     margin-bottom: calc(var(--line-height) / 2);
 }
@@ -290,6 +307,7 @@ button {
 
     cursor: pointer;
     
+    margin: 0px;
     margin-top: calc(var(--line-height) / 2);
     margin-bottom: calc(var(--line-height) / 2);
 }
