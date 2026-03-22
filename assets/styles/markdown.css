@@ -15,8 +15,6 @@ img {
 
 img {
     border-radius: var(--corner-radius);
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
 }
 
 table {
