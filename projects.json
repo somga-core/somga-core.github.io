@@ -1,76 +1,98 @@
 {
-	"Tron": {
-		"links": {
-			"GitHub": "https://github.com/K0RSY/Tron"
-		},
-		"image": "https://cdn.imgchest.com/files/e82100ec850b.png",
-		"readme": "https://raw.githubusercontent.com/K0RSY/Tron/main/README.md",
-		"author": "_Korsy_"
-	},
-	"TeCo": {
-		"links": {
-			"GitHub": "https://github.com/somga-core/teco"
-		},
-		"image": "https://cdn.imgchest.com/files/5024cf8340e9.png",
-		"readme": "https://raw.githubusercontent.com/somga-core/teco/main/README.md",
-		"author": "_Korsy_ d54267ygi"
-	},
-    "Мини регата": {
-        "links": {
-            "GitHub": "https://github.com/K0RSY/MiniRegatta",
-            "Itch.io": "https://k0rsy.itch.io/mini-regatta"
-        },
-        "image": "https://cdn.imgchest.com/files/yq9c3w3gm54.png",
-        "readme": "https://raw.githubusercontent.com/K0RSY/MiniRegatta/main/README.md",
-        "author": "_Korsy_"
+    "redirects":{
+        "0": "for-the-name-of-pruanik",
+        "1": "clgame",
+        "2": "space-around",
+        "3": "ritopos",
+        "4": "loopy-trams",
+        "5": "minecpper",
+        "6": "mini-regatta",
+        "7": "teco",
+        "8": "tron"
     },
-    "C++ёр": {
-        "links": {
-            "GitHub": "https://github.com/K0RSY/MineCppEr"
+    "projects": {
+        "tron": {
+            "name": "Tron",
+            "links": {
+                "GitHub": "https://github.com/K0RSY/Tron"
+            },
+            "image": "https://cdn.imgchest.com/files/e82100ec850b.png",
+            "readme": "https://raw.githubusercontent.com/K0RSY/Tron/main/README.md",
+            "author": "_Korsy_"
         },
-        "image": "https://cdn.imgchest.com/files/yq9c32woxj4.png",
-        "readme": "https://raw.githubusercontent.com/K0RSY/MineCppEr/main/README.md",
-        "author": "_Korsy_"
-    },
-    "Loopy trams": {
-        "links": {
-            "GitHub": "https://github.com/somga-core/loopy-trams",
-            "Itch.io": "https://k0rsy.itch.io/loopy-trams"
+        "teco": {
+            "name": "TeCo",
+            "links": {
+                "GitHub": "https://github.com/somga-core/teco"
+            },
+            "image": "https://cdn.imgchest.com/files/5024cf8340e9.png",
+            "readme": "https://raw.githubusercontent.com/somga-core/teco/main/README.md",
+            "author": "_Korsy_ d54267ygi"
         },
-        "image": "https://github.com/somga-core/loopy-trams/blob/main/assets/tram/tram_down_left.png?raw=true",
-        "readme": "https://raw.githubusercontent.com/somga-core/loopy-trams/main/README.md",
-        "author": "_Korsy_ d54267ygi"
-    },
-    "RITOPOS": {
-        "links": {
-            "GitHub": "https://github.com/d54267ygi/RITOPOS"
+        "mini-regatta": {
+            "name": "Мини регата",
+            "links": {
+                "GitHub": "https://github.com/K0RSY/MiniRegatta",
+                "Itch.io": "https://k0rsy.itch.io/mini-regatta"
+            },
+            "image": "https://cdn.imgchest.com/files/yq9c3w3gm54.png",
+            "readme": "https://raw.githubusercontent.com/K0RSY/MiniRegatta/main/README.md",
+            "author": "_Korsy_"
         },
-        "image": "https://cdn.imgchest.com/files/7w6c2q82zvy.png",
-        "readme": "https://raw.githubusercontent.com/d54267ygi/RITOPOS/main/README.md",
-        "author": "d54267ygi"
-    },
-    "Space around": {
-        "links": {
-            "GitHub": "https://github.com/K0RSY/SpaceAround"
+        "minecpper": {
+            "name": "C++ёр",
+            "links": {
+                "GitHub": "https://github.com/K0RSY/MineCppEr"
+            },
+            "image": "https://cdn.imgchest.com/files/yq9c32woxj4.png",
+            "readme": "https://raw.githubusercontent.com/K0RSY/MineCppEr/main/README.md",
+            "author": "_Korsy_"
         },
-        "image": "https://github.com/K0RSY/SpaceAround/blob/main/icon.png?raw=true",
-        "readme": "https://raw.githubusercontent.com/K0RSY/SpaceAround/main/README.md",
-        "author": "_Korsy_"
-    },
-    "CLGame": {
-        "links": {
-            "GitHub": "https://github.com/K0RSY/CLGame"
+        "loopy-trams": {
+            "name": "Loopy trams",
+            "links": {
+                "GitHub": "https://github.com/somga-core/loopy-trams",
+                "Itch.io": "https://k0rsy.itch.io/loopy-trams"
+            },
+            "image": "https://github.com/somga-core/loopy-trams/blob/main/assets/tram/tram_down_left.png?raw=true",
+            "readme": "https://raw.githubusercontent.com/somga-core/loopy-trams/main/README.md",
+            "author": "_Korsy_ d54267ygi"
         },
-        "image": "https://github.com/K0RSY/CLGame/blob/main/icon.png?raw=true",
-        "readme": "https://raw.githubusercontent.com/K0RSY/CLGame/main/README.md",
-        "author": "_Korsy_"
-    },
-    "Во имя пряника": {
-        "links": {
-            "GitHub": "https://github.com/K0RSY/ForTheNameOfPruanik"
+        "ritopos": {
+            "name": "RITOPOS",
+            "links": {
+                "GitHub": "https://github.com/d54267ygi/RITOPOS"
+            },
+            "image": "https://cdn.imgchest.com/files/7w6c2q82zvy.png",
+            "readme": "https://raw.githubusercontent.com/d54267ygi/RITOPOS/main/README.md",
+            "author": "d54267ygi"
         },
-        "image": "https://github.com/K0RSY/ForTheNameOfPruanik/blob/main/assets/textures/icon.png?raw=true",
-        "readme": "https://raw.githubusercontent.com/K0RSY/ForTheNameOfPruanik/main/README.md",
-        "author": "_Korsy_ d54267ygi"
+        "space-around": {
+            "name": "Space around",
+            "links": {
+                "GitHub": "https://github.com/K0RSY/SpaceAround"
+            },
+            "image": "https://github.com/K0RSY/SpaceAround/blob/main/icon.png?raw=true",
+            "readme": "https://raw.githubusercontent.com/K0RSY/SpaceAround/main/README.md",
+            "author": "_Korsy_"
+        },
+        "clgame": {
+            "name": "CLGame",
+            "links": {
+                "GitHub": "https://github.com/K0RSY/CLGame"
+            },
+            "image": "https://github.com/K0RSY/CLGame/blob/main/icon.png?raw=true",
+            "readme": "https://raw.githubusercontent.com/K0RSY/CLGame/main/README.md",
+            "author": "_Korsy_"
+        },
+        "for-the-name-of-pruanik": {
+            "name": "Во имя пряника",
+            "links": {
+                "GitHub": "https://github.com/K0RSY/ForTheNameOfPruanik"
+            },
+            "image": "https://github.com/K0RSY/ForTheNameOfPruanik/blob/main/assets/textures/icon.png?raw=true",
+            "readme": "https://raw.githubusercontent.com/K0RSY/ForTheNameOfPruanik/main/README.md",
+            "author": "_Korsy_ d54267ygi"
+        }
     }
 }

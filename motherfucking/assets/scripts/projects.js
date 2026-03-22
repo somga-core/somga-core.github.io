@@ -9,16 +9,14 @@ function loadFile(filePath) {
   return result;
 }
 
-function loadProject(name, info, i) {
+function loadProject(project_id, info) {
   var html = loadFile("assets/elements/project.html").split("~");
 
-  return html[0] + "./project?id=" + i + html[1] + name + html[2] + info["author"] + html[3];
+  return html[0] + "./project?id=" + project_id + html[1] + info["name"] + html[2] + info["author"] + html[3];
 }
 
-var projects = eval("(" + loadFile("../projects.json") + ")");
-var i = Object.keys(projects).length - 1;
+var projects = eval("(" + loadFile("../projects.json") + ")")["projects"];
 
-for (var project_name in projects) {
-  document.write(loadProject(project_name, projects[project_name], i) + "\n");
-  i--;
+for (var project_id in projects) {
+  document.write(loadProject(project_id, projects[project_id]) + "\n");
 }
