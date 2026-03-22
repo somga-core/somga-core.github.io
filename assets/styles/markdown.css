@@ -15,6 +15,8 @@ img {
 
 img {
     border-radius: var(--corner-radius);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
 
 table {
@@ -27,12 +29,13 @@ table {
     
     border: var(--line-width) solid var(--border-color);
     border-radius: var(--corner-radius);
+    box-shadow: inset 0px 0px calc(var(--gap-size) / 2) var(--bg-middle-color);
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
 
 th {
@@ -61,64 +64,64 @@ tr {
 
 h1 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h2 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h3 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h4 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h5 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h6 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 p {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-middle-color);
     font-weight: var(--font-weight-light);
 }
 
 li {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
 
 :last-child {
@@ -132,8 +135,8 @@ b {
 
 ul {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
     color: var(--text-middle-color);
 }
 
@@ -153,12 +156,13 @@ pre {
     
     border: var(--line-width) solid var(--border-color);
     border-radius: var(--corner-radius);
-    
+    box-shadow: inset 0px 0px calc(var(--gap-size) / 2) var(--bg-middle-color);
+
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
 
 ul {
@@ -198,8 +202,8 @@ input {
     width: calc(var(--symbol-width) * 25);
 
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
 
 input:focus {
@@ -310,8 +314,8 @@ button {
     cursor: pointer;
     
     margin: 0px;
-    margin-top: calc(var(--line-height) / 1);
-    margin-bottom: calc(var(--line-height) / 1);
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
 
 button:hover {
