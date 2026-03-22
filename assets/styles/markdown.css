@@ -30,8 +30,8 @@ table {
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: 0;
+    margin-bottom: var(--line-height);
 }
 
 th {
@@ -60,50 +60,50 @@ tr {
 
 h1 {
     margin: 0px;
-    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h2 {
     margin: 0px;
-    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h3 {
     margin: 0px;
-    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h4 {
     margin: 0px;
-    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h5 {
     margin: 0px;
-    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h6 {
     margin: 0px;
-    margin-top: var(--line-height);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 p {
     margin: 0px;
+    margin-bottom: var(--line-height);
     color: var(--text-middle-color);
     font-weight: var(--font-weight-light);
+}
+
+::marker {
+    margin: 0px;
+    margin-bottom: var(--line-height);
 }
 
 :last-child {
@@ -139,8 +139,8 @@ pre {
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: 0;
+    margin-bottom: var(--line-height);
 }
 
 ul {
@@ -158,7 +158,11 @@ a {
     color: var(--text-color);
 }
 
-/* 
+/*
+These fucking elements don't work but we'll still keep them because why not
+(C) K0RSY 22.03.2026
+*/
+
 input {
     font-family: "SomgaFont";
 
@@ -292,4 +296,4 @@ button {
 
 button:hover {
     background: var(--bg-light-selected-color);
-} */
+}
