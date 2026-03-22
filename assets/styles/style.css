@@ -310,6 +310,8 @@ td {
     width: var(--contents-width);
     height: auto;
     position: fixed;
+    padding-top: 0px;
+    padding-bottom: 0px;
     max-height: calc(100vh - var(--panel-height) - var(--gap-size) * 3);
 }
 
