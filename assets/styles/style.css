@@ -313,9 +313,17 @@ td {
     max-height: calc(100vh - var(--panel-height) - var(--gap-size) * 3);
 }
 
+.article_dict_keys_container_container_container {
+    padding-top: var(--gap-size);
+    padding-bottom: var(--gap-size);
+    max-height: inherit;
+}
+
 .article_dict_keys_container_container {
     display: block;
     overflow-y: scroll;
+    max-height: inherit;
+    scrollbar-color: var(--bg-middle-color) var(--bg-middle-color);
 }
 
 .article_dict_keys_container {
@@ -387,6 +395,7 @@ td {
 
     .article_dict_keys {
         width: calc(100% - var(--gap-size) * 2);
+        max-height: calc(100vh - var(--panel-height) * 2 - var(--gap-size) * 2);
     }
 
     .hidden {
