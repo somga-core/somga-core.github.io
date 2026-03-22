@@ -298,12 +298,6 @@ td {
     width: var(--contents-width);
 }
 
-.article_dict_keys {
-    width: var(--contents-width);
-    height: auto;
-    position: fixed;
-}
-
 .article_dict_values {
     width: calc(100vw - var(--gap-size) * 3 - var(--contents-width));
 }
@@ -312,8 +306,16 @@ td {
     width: 100%;
 }
 
+.article_dict_keys {
+    width: var(--contents-width);
+    height: auto;
+    position: fixed;
+    max-height: 100vh;
+}
+
 .article_dict_keys_container {
     align-items: start;
+    overflow-y: scroll;
 }
 
 .article_key {
