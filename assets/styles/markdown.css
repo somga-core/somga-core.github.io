@@ -101,7 +101,7 @@ p {
     font-weight: var(--font-weight-light);
 }
 
-::marker {
+li {
     margin: 0px;
     margin-bottom: var(--line-height);
 }
