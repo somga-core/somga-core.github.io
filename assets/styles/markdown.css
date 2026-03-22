@@ -132,6 +132,8 @@ b {
 
 ul {
     margin: 0px;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
     color: var(--text-middle-color);
 }
 
