@@ -20,6 +20,7 @@ img {
 }
 
 table {
+    background: var(--bg-dark-color);
     padding-top: calc(var(--gap-size) / 2);
     padding-bottom: calc(var(--gap-size) / 2);
     display: block;
@@ -29,7 +30,6 @@ table {
     
     border: var(--line-width) solid var(--border-color);
     border-radius: var(--corner-radius);
-    box-shadow: inset 0px 0px calc(var(--gap-size) / 2) var(--bg-middle-color);
     
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
@@ -148,6 +148,7 @@ code {
 }
 
 pre {
+    background: var(--bg-dark-color);
     padding: calc(var(--gap-size) / 2);
     display: block;
     overflow-x: auto;
@@ -156,7 +157,6 @@ pre {
     
     border: var(--line-width) solid var(--border-color);
     border-radius: var(--corner-radius);
-    box-shadow: inset 0px 0px calc(var(--gap-size) / 2) var(--bg-middle-color);
 
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
