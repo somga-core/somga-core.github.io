@@ -31,8 +31,8 @@ table {
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
 }
 
 th {
@@ -61,64 +61,64 @@ tr {
 
 h1 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h2 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h3 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h4 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h5 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 h6 {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-light-color);
     font-weight: var(--font-weight-header);
 }
 
 p {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-middle-color);
     font-weight: var(--font-weight-light);
 }
 
 li {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
 }
 
 :last-child {
@@ -132,8 +132,8 @@ b {
 
 ul {
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
     color: var(--text-middle-color);
 }
 
@@ -157,8 +157,8 @@ pre {
     scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
     
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
 }
 
 ul {
@@ -198,8 +198,8 @@ input {
     width: calc(var(--symbol-width) * 25);
 
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
 }
 
 input:focus {
@@ -310,8 +310,8 @@ button {
     cursor: pointer;
     
     margin: 0px;
-    margin-top: calc(var(--line-height) / 2);
-    margin-bottom: calc(var(--line-height) / 2);
+    margin-top: calc(var(--line-height) / 1);
+    margin-bottom: calc(var(--line-height) / 1);
 }
 
 button:hover {
