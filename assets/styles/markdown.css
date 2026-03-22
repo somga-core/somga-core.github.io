@@ -172,8 +172,8 @@ a {
 }
 
 ::selection {
-    background-color: var(--accent-color);
-    color: var(--text-color);
+    background-color: var(--accent-color); 
+    color: var(--bg-middle-color);
 }
 
 /*
