@@ -310,7 +310,7 @@ td {
     width: var(--contents-width);
     height: auto;
     position: fixed;
-    max-height: 100vh;
+    max-height: calc(100vh - var(--panel-height) - var(--gap-size) * 2);
 }
 
 .article_dict_keys_container {
