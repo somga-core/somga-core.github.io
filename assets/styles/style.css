@@ -313,9 +313,13 @@ td {
     max-height: calc(100vh - var(--panel-height) - var(--gap-size) * 3);
 }
 
+.article_dict_keys_container_container {
+    display: block;
+    overflow-y: scroll;
+}
+
 .article_dict_keys_container {
     align-items: start;
-    overflow-y: scroll;
 }
 
 .article_key {
