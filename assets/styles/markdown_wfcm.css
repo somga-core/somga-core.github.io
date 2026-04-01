@@ -1,3 +1,0 @@
-:not(li):first-child { /* This will not work properly if the first element of the markdown is list */
-    margin-top: 0px;   /* But i don't care, CSS is a languge for monkeys */
-}                      /* (C) K0RSY 22.03.2026 */

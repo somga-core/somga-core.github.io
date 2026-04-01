@@ -1,319 +1,53 @@
-* {
-    box-sizing: border-box;
-}
-
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-@font-face {
-    font-family: "SomgaFont";
-    src: url("../font/JetBrainsMono.ttf");
-}
-
-img {
-    border-radius: var(--corner-radius);
-}
-
-table {
-    padding-top: calc(var(--gap-size) / 2);
-    padding-bottom: calc(var(--gap-size) / 2);
-    display: block;
-    overflow-x: auto;
-
-    max-width: max-content;
-    
-    border: var(--line-width) solid var(--border-color);
-    border-radius: var(--corner-radius);
-    
-    scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
-    
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-}
-
-th {
-    padding-left: calc(var(--gap-size) / 2);
-    padding-right: calc(var(--gap-size) / 2);
-    color: var(--text-light-color);
-    vertical-align: top;
-}
-
-td {
-    padding-left: calc(var(--gap-size) / 2);
-    padding-right: calc(var(--gap-size) / 2);
-    gap: var(--line-height);
-    color: var(--text-middle-color);
-    vertical-align: top;
-}
-
-tr {
-    gap: var(--gap-size);
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
 }
 
 * {
-    font-size: var(--font-size);
-    line-height: var(--line-height);
-}
-
-h1 {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-light-color);
-    font-weight: var(--font-weight-header);
-}
-
-h2 {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-light-color);
-    font-weight: var(--font-weight-header);
-}
-
-h3 {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-light-color);
-    font-weight: var(--font-weight-header);
-}
-
-h4 {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-light-color);
-    font-weight: var(--font-weight-header);
-}
-
-h5 {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-light-color);
-    font-weight: var(--font-weight-header);
-}
-
-h6 {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-light-color);
-    font-weight: var(--font-weight-header);
-}
-
-p {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-middle-color);
-    font-weight: var(--font-weight-light);
-}
-
-li {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-}
-
-:last-child {
-    margin-bottom: 0px;
-}
-
-b {
-    margin: 0px;
-    font-weight: var(--font-weight-bold);
-}
-
-ul {
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    color: var(--text-middle-color);
-}
-
-code {
-    border-radius: var(--corner-radius);
-    font-family: "SomgaFont";
-    
-    color: var(--text-light-color);
-}
-
-pre {
-    padding: calc(var(--gap-size) / 2);
-    display: block;
-    overflow-x: auto;
-
-    max-width: max-content;
-    
-    border: var(--line-width) solid var(--border-color);
-    border-radius: var(--corner-radius);
-
-    scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
-    
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-}
-
-ul {
-    padding-left: calc(var(--symbol-width) * 4);
+    font-family: none;
 }
 
 a {
-    color: var(--text-middle-color);
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 ::selection {
-    background-color: var(--accent-color); 
-    color: var(--bg-middle-color);
+    background-color: var(--accent-color);
+    color: var(--text-color);
 }
 
-/*
-These fucking elements don't work but we'll still keep them because why not
-(C) K0RSY 22.03.2026
-*/
-
-input {
-    font-family: "SomgaFont";
-
-    padding: calc(var(--gap-size) / 2);
+table {
+    padding: 5px;
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+    
     display: block;
     overflow-x: auto;
-
+    
     max-width: max-content;
-    
-    border: var(--line-width) solid var(--border-color);
-    border-radius: var(--corner-radius);
-    
-    scrollbar-color: var(--bg-light-color) var(--bg-middle-color);
-    
-    width: calc(var(--symbol-width) * 25);
-
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
 }
 
-input:focus {
-    border-color: var(--border-color);
-    outline: 0;
+th {
+    padding: 5px;
 }
 
-input[type=button] {
-    padding-left: calc(var(--gap-size) / 2);
-    padding-right: calc(var(--gap-size) / 2);
-    padding-top: calc(var(--gap-size) / 3);
-    padding-bottom: calc(var(--gap-size) / 3);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: var(--bg-light-color);
-
-    border-radius: var(--corner-radius);
-    border: var(--line-width) solid var(--border-color);
-
-    cursor: pointer;
+td {
+    padding: 5px;
 }
 
-input[type=button]:hover {
-    background: var(--bg-light-selected-color);
+code {
+    font-family: monospace;
+    font-size: 75%;
 }
 
-input[type=checkbox] {
-    padding: 0;
-    margin: 0;
+pre {
+    padding: 5px;
 
-    margin-right: var(--symbol-width);
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
 
-    height: var(--line-height);
-    max-width: var(--symbol-width);
-
-    accent-color: var(--accent-color);
-
-    cursor: pointer;
-}
-
-input[type=radio] {
-    padding: 0;
-    margin: 0;
-
-    margin-right: var(--symbol-width);
-
-    height: var(--line-height);
-    max-width: var(--symbol-width);
-
-    accent-color: var(--accent-color);
-
-    cursor: pointer;
-}
-
-input[type=range] {
-    accent-color: var(--accent-color);
-
-    border: 0;
-    margin: 0;
-    padding: 0;
-
-    height: var(--line-height);
-    width: calc(var(--symbol-width) * 25);
-    max-width: calc(var(--symbol-width) * 25);
-}
-
-label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    margin: 0px;
-    color: var(--text-middle-color);
-    font-weight: var(--font-weight-light);
-
-    cursor: pointer;
-}
-
-fieldset {
-    margin: 0;
-    padding: 0;
-
-    padding-left: calc(var(--symbol-width) * 2);
-
-    border: 0;
-}
-
-button {
-    font-family: "SomgaFont";
-
-    padding-left: calc(var(--gap-size) / 2);
-    padding-right: calc(var(--gap-size) / 2);
-    padding-top: calc(var(--gap-size) / 3);
-    padding-bottom: calc(var(--gap-size) / 3);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: var(--bg-light-color);
-
-    border-radius: var(--corner-radius);
-    border: var(--line-width) solid var(--border-color);
-
-    cursor: pointer;
-    
-    margin: 0px;
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-}
-
-button:hover {
-    background: var(--bg-light-selected-color);
+    overflow-x: auto;
 }

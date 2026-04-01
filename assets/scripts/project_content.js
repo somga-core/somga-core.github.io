@@ -9,10 +9,6 @@ function loadFile(filePath) {
     return result;
 }
 
-function formatName(name) {
-  return name.replace(/ /g, "-").toLowerCase();
-}
-
 function loadButtons(links) {
   var html = loadFile("assets/elements/project_content_button.html").split("~");
 
@@ -28,7 +24,7 @@ function loadButtons(links) {
 function loadProjectContent(info) {
   var html = loadFile("assets/elements/project_content.html").split("~");
 
-  return html[0] + info["image"] + html[1] + info["name"] + html[2] + info["author"] + html[3] + loadButtons(info["links"]) + html[4] + info["readme"] + html[5];
+  return html[0] + info["name"] + html[1] + info["author"] + html[2] + loadButtons(info["links"]) + html[3] + info["readme"] + html[4];
 }
 
 var projects = eval("(" + loadFile("./projects.json") + ")")
