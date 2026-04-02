@@ -12,10 +12,10 @@ function loadFile(filePath) {
 function loadProject(project_id, info) {
   var html = loadFile("assets/elements/project.html").split("~");
 
-  return html[0] + "./project?id=" + project_id + html[1] + info["image"] + html[2] + info["name"] + html[3] + info["author"] + html[4];
+  return html[0] + "./project?id=" + project_id + html[1] + info["name"] + html[2] + info["author"] + html[3];
 }
 
-var projects = eval("(" + loadFile("./projects.json") + ")")["projects"];
+var projects = eval("(" + loadFile("../projects.json") + ")")["projects"];
 
 for (var project_id in projects) {
   document.write(loadProject(project_id, projects[project_id]) + "\n");

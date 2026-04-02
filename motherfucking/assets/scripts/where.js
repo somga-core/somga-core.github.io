@@ -12,10 +12,10 @@ function loadFile(filePath) {
 function loadLink(info) {
   var html = loadFile("assets/elements/link.html").split("~");
 
-  return html[0] + info[1] + html[1] + info[2] + html[2] + info[0] + html[3] + info.slice(3).join(" ") + html[4];
+  return html[0] + info[1] + html[1] + info[0] + html[2];
 }
 
-var links = loadFile("links.txt").split("\n");
+var links = loadFile("../links.txt").split("\n");
 
 for (let i = 0; i < links.length; i++) {
   document.write(loadLink(links[i].split(" ")));

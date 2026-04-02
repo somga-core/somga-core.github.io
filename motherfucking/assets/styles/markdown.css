@@ -1,0 +1,53 @@
+img {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+* {
+    font-family: none;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+::selection {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+table {
+    padding: 5px;
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+    
+    display: block;
+    overflow-x: auto;
+    
+    max-width: max-content;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+code {
+    font-family: monospace;
+    font-size: 75%;
+}
+
+pre {
+    padding: 5px;
+
+    border: 0 solid var(--highlight-color);
+    border-width: var(--line-width);
+    border-color: var(--highlight-color);
+
+    overflow-x: auto;
+}
