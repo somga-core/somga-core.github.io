@@ -405,7 +405,7 @@
 |\|\||double perpendicular dick with no balls|
 |&|tied dick with no balls|
 |&&|double tied dick with no balls|
-|?|curved to the left dick with one ball|
+|?|curved to the left dick without one ball|
 
 # Язык 1119
 1119 (Чк чк чк пщщ) - минималистичный язык, вдохновлённый языками 911 и 9111. Он отличается простотой грамматики и отсутствием специальных символов в письменности (Записывается только цифрами)
