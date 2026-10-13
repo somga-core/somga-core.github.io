@@ -22,3 +22,5 @@ Sömga core - это сообщесво юных и озорных разраб�
 
 ## Кредиты
 В конструировании сайта был испольван веб-компонент [зеро-мд](https://github.com/zerodevx/zero-md) от [зеродевикса](https://github.com/zerodevx)
+
+Весь сайт использует шрифт [Джет-брейнс моно](https://www.jetbrains.com/lp/mono)
